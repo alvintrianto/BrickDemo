@@ -1,0 +1,8 @@
+#Register Page Locator
+#Field
+loginEmailField               : id=your_email
+loginPasswordField            : id=password
+
+#Button
+loginButton                   : name=login
+ConfirmLoginModalButton       : xpath=//button[contains(text(),'OK')]

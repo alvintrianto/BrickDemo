@@ -1,0 +1,16 @@
+#Register Page Locator
+#Field
+firstnameField            : id=firstName
+lastnameField             : id=lastName
+emailField                : id=email
+phoneNumberField          : id=phoneNumber
+addressField              : id=address
+passwordField             : id=password
+confirmPasswordField      : id=confirm_password
+
+#Button
+registerButton            : class=register
+ConfirmRegistModalButton  : xpath=//button[contains(text(),'OK')]
+
+#Hyperlink
+loginLink                 : xpath=//*[@id="myform"]/div[7]/p/a
