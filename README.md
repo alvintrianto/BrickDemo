@@ -1,4 +1,4 @@
-# EvermosDynamicsWeb Automation
+# BrickDemo Automation
 This automation powered by Robot Framework tools
 How to Run this automation
 
@@ -45,8 +45,8 @@ pip install --upgrade robotframework-seleniumlibrary
 10. Save the web driver in directory : ```C:\Users\[user]\AppData\Local\Programs\Python\Python39\```
 11. If use Edge, change the filename to `MicrosoftWebDriver.exe`
 12. Clone this repo to your directory
-13. Open the directory from cmd/terminal with command ```cd [User dir]\EvermosDynamicsWeb```
-14. Run all the automation with command ```robot Features\```
+13. Open the directory from cmd/terminal with command ```cd [User dir]\BrickDemo```
+14. Run all the scenario with command ```robot Features```
 15. If you want to run only one feature type command ```robot Features\[file_name].robot```
 16. Check the automation reports from the file ```report.html```
 
